@@ -1,0 +1,322 @@
+
+
+
+
+.worcher{
+	width: 1200px;
+	height: 700px;
+	display: flex;
+	justify-content:space-around;
+	background: #c7c7c1;
+	border-radius: 10px;
+	position: relative;
+	left: 300px;
+
+}
+.foto_wor{
+	width: 400px;
+	height: 400px;
+	position: relative;
+	top: 10px;
+}
+
+.shop_list1{
+	display: flex;
+	justify-content: row;
+	position: relative;
+	left: 350px;
+	
+}
+.foto4{
+	width: 500px;
+}
+.cart{
+	width:20px ;
+	height: 20px;
+}
+button{
+	font-size: 30px;
+}
+.dia{
+	position: relative;
+	top: 100px;
+	left: 100px;
+}
+.buy_dia{
+	font-size: 40px;
+}
+.info_tovar1{
+	width: 600px;
+	position: relative;
+	
+	background: #c7c7c1;
+}
+.fut{
+	position: relative;
+	left: 100px;
+}
+.cost{
+	position: relative;
+	left: 150px;
+}
+.size{
+	position: relative;
+	left: 100px;
+}
+
+
+.buy_list{
+	height: 100%;
+	display: flex;
+	justify-content: column;
+	justify-content: space-around;
+	padding: 40px;
+}
+.list,.list2,.list3,.list4{
+	width: 400px;
+	height: 600px;
+	background: #dbdbd5;	
+
+}
+.foto{
+	width: 100%;
+	height: 80%;
+
+
+}
+.info{
+position: relative;
+
+top: -25px;
+display: flex;
+justify-content: center;	
+}
+.buy{
+	width: 110px;
+position: relative;
+left: 140px;
+top: -55px;	
+background: #c7c7c1;
+border-radius:4px ;
+}
+.buy:hover{
+	background: #999993;
+}
+.filtr{
+	width: 200px;
+	height: 100px;
+	
+}
+.conpca{
+	width: 500px;
+	display: flex;
+	padding: 20px;
+	justify-content: space-around;
+}
+.tab2{
+	border: none;
+	width: 100px;
+	height: 40px;
+	font-size: 20px;
+	border-radius:10px ;
+}
+.info2{
+	position: relative;
+	top: -40px;
+	left: 20px;
+}
+   a{
+   	text-decoration: none;
+   	color: black;
+   }
+   .header{
+   	display: flex;
+   	justify-content: space-around;
+
+   }
+   .logo{
+   	width: 50px;
+   	height: 50px;
+   }
+   .polosca{
+   	width: 100%;
+   	height: 4px;
+   	background: black;
+   }
+   .summer,.spring{
+   	padding: 40px;
+   	display: flex;
+   	flex-direction: row;
+   	justify-content: center;
+   	position: relative;
+   	left: -150px;
+   }
+ 
+   .summer_foto{
+   	width: 750px;
+   	height: 400px;
+   	z-index: 1;
+   	position: relative;
+   	left: 260px;
+   }
+     .info_summer{
+    width: 850px;
+   	height: 400px;
+   	background: #0081C9;
+   	z-index: 2;
+   	
+   	 clip-path: polygon(100% 0% ,30% 0% ,0% 100%,100% 100%);
+   	
+
+
+   }
+   .nome{
+    height: 300px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   	
+   }
+   .tab{
+   
+   height: 40px;
+
+
+   	background: #314cad;
+   	display: flex;
+   justify-content: center;
+   align-items: center;
+    border-radius: 6px;
+    color: white;
+   }
+   .tab:hover{
+   	background: #27397a;
+
+   }
+   .info_autumn,.info_spring{
+    width: 850px;
+   	height: 400px;
+   	background: #F49D1A;
+   	z-index: 2;
+   	
+   	 clip-path: polygon(100% 0% ,30% 0% ,0% 100%,100% 100%);
+    }
+  .spring{
+   }
+    .info_spring{
+    background: #65C18C;
+    }
+   .footer{
+    display: flex;
+    justify-content: space-around;;
+   }
+   .register{
+
+    width: 400px;
+    border: 3px solid black;
+ display:flex ;
+ justify-content:center ;
+ position: relative;
+ left: 700px;
+ top: 20px;
+    
+   }
+   from{
+    display: flex;
+    justify-content: center;
+   }
+   .register_tab{
+    position: relative;
+    left: 70px;
+    border: none;
+    font-size: 30px;
+   }
+   input{
+    font-size: 30px;
+    display: flex;
+     justify-content: center;
+     padding: 10px;
+     border-radius: 5px;
+    
+    }
+   .rg{
+    display: flex;
+    justify-content:center ;
+   }
+.basket{
+	position: relative;
+	left: 550px;
+	width: 700px;
+	
+	display: flex;
+	justify-content:center ;
+	
+
+	border: 2px solid black;
+
+
+
+
+}
+.sps{
+	width: 700px;
+	height: 700px;
+	display: block;
+
+	position: relative;
+	left: 550px;
+	justify-content:center ;
+	border: 2px solid black;
+}
+
+.list_sps1{
+	width: 100%;
+	height: 100px;
+	border: 2px solid black;
+	display: flex;
+	justify-content: column;
+
+
+}
+.list_foto{
+	width: 100px;
+	height: 100px;
+}
+.men{
+	position: relative;
+	left: 200px;
+display: flex;
+ flex-direction: row;
+  justify-content: flex-end;
+}
+button{
+	height: 70px;
+	border: none;
+	padding: 10px;
+	border: 1px solid black;
+	display: flex;
+	align-items: center;
+	position: relative;
+	top: 15px;
+
+}
+.sps2{
+	width: 700px;
+	height: 100px;
+	border: 2px solid black;
+	position: relative;
+	left: 550px;
+}
+.op{
+	position: relative;
+	left: -300px;
+	top: -70px;
+}
+.polosca2{
+	width: 270%;
+	height: 5px;
+	background: black;
+	position: relative;
+	left: -600px;
+}
